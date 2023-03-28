@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"  a href="style.css"></a>>
+</head>
+
+<body>
+  <div class="box" id="questionScreen">
+    <div class="title">
+      Online Quiz
+    </div>
+    <div class="header">
+      <div class="scoreBox">Score:<span></span></div>
+      <div class="timerBox">Timer:<span></span></div>
+    </div>
+    <div class="questionBox">
+      
+    </div>
+    <div class="optionBox">
+      <span onclick="checkAnswer(this)" data-opt="1"></span>
+      <span onclick="checkAnswer(this)" data-opt="2"></span>
+      <span onclick="checkAnswer(this)" data-opt="3"></span>
+      <span onclick="checkAnswer(this)" data-opt="4"></span>
+    </div>
+    <div class="footer">
+      <button onclick="shownext()">Next</button>
+      <button onclick="showResult(1)">Show Result</button>
+    </div>
+  </div>
+  <div class="box" id="resultscreen" >
+    <div class="title">
+      Score Board
+    </div>
+    <div class="resultBox">
+      <label>Questions</label>
+      <span id="totalQuestion">10</span>
+      <label>Attempt:</label>
+      <span id="attemptQuestion">0</span>
+      <label>Correct:</label>
+      <span id="correctAnswer">0</span>
+      <label>Wrong:</label>
+      <span id="wrongAnswer">0</span>
+    </div>
+    <div class="footer">
+      <a href="index.html">Start Again</a>
+    </div>
+  </div>
+<script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript" src="./quiz.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</body>
+
+</html>

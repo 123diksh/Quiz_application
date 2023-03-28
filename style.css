@@ -1,0 +1,42 @@
+body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url("./images/background.jpg");
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        }
+.container{
+    width: 840px;
+    background-color:aliceblue;
+    box-shadow: black;
+     height: 350px;
+     padding: 80px 90px;
+     border-radius: 10px;
+     display: flex;
+     
+}
+
+.leftside img{
+        width: 350px;
+        height: 370px;
+        
+}
+.rightside a{
+    background-color:cornflowerblue;
+    border-radius:100px ;
+    color: aliceblue;
+    font-size: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    }
+
+.down img{
+     height:120px;
+     padding-top: 250px;
+     
+}
+
