@@ -3,7 +3,7 @@
 It is simple quiz application .The UI of these application created using html, CSS and logic is written 
 in javascript. In these application each question as four options.
 
-Feature
+### `Feature`
 
 
  After finishing time it's show correct answer.
